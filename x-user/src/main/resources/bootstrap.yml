@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: x-user
+  cloud:
+    config:
+      name: x-user
+      profile: dev
+      # 配置中心的地址
+      uri: http://localhost:8763

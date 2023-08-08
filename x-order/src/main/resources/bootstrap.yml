@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: x-order
+  cloud:
+    config:
+      name: x-order
+      profile: dev
+      # 配置中心的地址
+      uri: http://localhost:8763

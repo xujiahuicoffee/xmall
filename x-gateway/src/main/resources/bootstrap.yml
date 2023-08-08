@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: x-gateway
+  cloud:
+    config:
+      name: x-gateway
+      profile: dev
+      # 配置中心的地址
+      uri: http://localhost:8763
+
